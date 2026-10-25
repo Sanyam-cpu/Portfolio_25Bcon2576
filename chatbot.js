@@ -22,7 +22,7 @@ function showChatMessage(role, text) {
 // Disable chat when local configuration is absent
 if (typeof CONFIG === "undefined" ||
     !CONFIG.apiKey ||
-    CONFIG.apiKey === "YOUR_PRIVATE_GROQ_KEY") {
+    CONFIG.apiKey === "fiG8hTC57j91zITLyTRJQomP6eJAncpn") {
   chatButton.disabled = true;
   chatStatus.textContent =
     "AI chat is available in the local demonstration only.";
