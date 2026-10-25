@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanyam Soni </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Personal Profile</p>
+    <h1>Sanyam Soni</h1>
+    <p class="tagline">PLACEHOLDER`B.Tech CSE (AI & Data Science)</p>
+  </header>
+
+  <main>
+    <section class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+        Academic background at JECRC University, Jaipur (Session 2025–2029) pursuing B.Tech in CSE (Artificial Intelligence & Data Science).
+        Focus on AI, Machine Learning, Data Science, Python, and Full-Stack Web/Software Development aiming for AI Engineer / Data Scientist roles.
+      </p>
+      <p>
+         Passionate about AI, Machine Learning, and Data Science, with a strong interest in developing innovative solutions and contributing to the field of technology.
+      </p>
+    </section>
+
+    <section class="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul>
+        <li>1. Artificial Intelligence & Machine Learning </li>
+        <li>2. Data Science </li>
+        <li>3. Python </li>
+        <li>4. Full-Stack Web/Software Development </li>
+        <li>5. Problem Solving </li>
+      </ul>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ul>
+        <li>
+          <a href="https://example.com/placeholder-project-one">Project One</a>
+          <p>LifeBridge (Organ-sharing platform with donor/recipient management, hospital dashboards, compatibility prediction, and organ-sharing workflows using Node.js, Express.js, MySQL, Socket.IO, HTML/CSS/JS).
+Projects 2 & 3 placeholders will be retained as clean placeholders so no unverified projects are fabricated.</p>
+        </li>
+        
+      </ul>
+    </section>
+  </main>
+  <section id="weather">
+    <h2>Weather</h2>
+
+    <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter a city"
+    >
+
+    <button id="weatherButton">
+        Get Weather
+    </button>
+
+    <div id="weatherResult">
+        Enter a city to see the weather.
+    </div>
+  </section>
+  <section id="aiChatSection" class="ai-chat">
+      <h2>Ask My AI Assistant</h2>
+    
+      <p>
+        Ask questions about this portfolio,
+        projects, and technologies.
+      </p>
+    
+      <div
+        id="chatMessages"
+        aria-live="polite"
+      ></div>Short role of the AI assistant: It is a chatbot that can answer questions about the portfolio, projects, and technologies. It is available during the local classroom demonstration only.
+    
+      <div class="chat-controls">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Ask a question..."
+        />
+    
+        <button id="sendButton" type="button">
+          Send
+        </button>
+      </div>
+    
+      <p id="chatStatus" role="status"></p>
+    
+      <p class="chat-note">
+        AI chat is available during the local
+        classroom demonstration only.
+      </p>
+  </section>
+  <footer class="site-footer">
+    <p>Sanyam Soni — JECRC University, Jaipur 
+       email: [Email:Sanyamsoni11@gmail.com]</p>
+  </footer>
+  <button id="themeToggle">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
